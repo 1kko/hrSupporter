@@ -1,0 +1,28 @@
+[tool.poetry]
+name = "hrsupporter"
+version = "0.1.0"
+description = ""
+authors = ["1kko-ahnlabio <1kko@ahnlab.io>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.12"
+docling = "^2.11.0"
+tesserocr = "^2.7.1"
+ollama = "^0.4.4"
+easyocr = "^1.7.2"
+langchain = "^0.3.11"
+pypdf = "^5.1.0"
+python-dateutil = "^2.9.0.post0"
+pydantic = "^2.10.3"
+langchain-community = "^0.3.11"
+langchain-core = "^0.3.24"
+langchain-ollama = "^0.2.1"
+
+
+[tool.poetry.group.dev.dependencies]
+ruff = "^0.8.3"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"

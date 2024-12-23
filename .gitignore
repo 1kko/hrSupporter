@@ -1,0 +1,14 @@
+# Ignore all files in output directory
+output/*
+
+# Ignore all files in processed directory
+processed/*
+
+# Ignore all files in source directory
+source/*
+
+# ignore process.log
+process.log
+
+# ignore venv
+.venv/
